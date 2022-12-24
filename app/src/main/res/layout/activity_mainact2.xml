@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0000"
+    tools:context=".mainact2">
+
+    <com.airbnb.lottie.LottieAnimationView
+
+        android:id="@+id/wassup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/tick_not" />
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        app:titleMarginBottom="@dimen/cardview_compat_inset_shadow"
+        android:layout_height="50dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="2dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:collapseIcon="@mipmap/ic_launcher"
+        app:titleTextAppearance="@style/TextAppearance.Material3.ActionBar.Title"
+
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="@mipmap/ic_launcher_foreground"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/IDScanner" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
